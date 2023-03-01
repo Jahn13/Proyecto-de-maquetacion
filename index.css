@@ -1,0 +1,316 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: chirp;
+}
+button:hover{
+    background-color: #E1E8ED;
+}
+a:hover{
+    text-decoration: underline;
+}
+.a:hover{
+    text-decoration: underline;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.beetw{
+    height: 1.6rem;
+    justify-content: space-between;
+}
+
+.flex-row{
+    display: flex;
+}
+.columngap{
+    row-gap: 0.6rem;
+}
+
+.bg{
+    height: 100vh;
+}
+
+.bg-blue{
+    overflow: scroll;
+    height: 100vh;
+    flex-basis: 45%;
+    border-left: 0.1rem solid #E1E8ED;
+    border-right: 0.1rem solid #E1E8ED;
+}
+.search{
+    margin: 0.5rem 2rem 0 0;
+    border-radius: 10rem;
+    font-size: 1.5rem;
+    padding: 1.2rem 1.6rem 1rem 2rem;
+    border: 0.1rem solid #E1E8ED;
+    background-color: #E1E8ED;
+    width: 82%;
+    height: 5rem;
+    align-items: center;
+}
+.bar{
+    width: 44.8%;
+    background-color: white;
+    height: auto;
+    position: fixed;
+    padding: 0 1.6rem;
+}
+.search:focus-within{
+    background-color: #F5F8FA;
+    border-color: #1DA1F2;
+}
+.input{
+    width: 83%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.config:hover{
+    cursor: pointer;
+    background-color: #E1E8ED;
+}
+.config{
+    border-radius: 5rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    display: flex;
+    width: 10%;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.tendencias:hover{
+    cursor: pointer;
+    background-color: #E1E8ED;
+}
+.tendencias{
+    width: 100%;
+    height: auto;
+} 
+.points:hover{
+    background-color: #91c7e9;
+    border-color: transparent;
+    color:#1DA1F2
+}
+.points{
+    border-radius: 10rem;
+    padding: 1rem;
+}
+
+.reducir{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+}
+
+.verify{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.justify{
+    align-items: center;
+    justify-content: center;
+}
+.gap{
+    row-gap: 1.5rem;
+}
+.gap2{
+    column-gap: 3rem;
+}
+.containerimg{
+    width: 100%;
+    height: 55rem;
+}
+.img{
+    border-radius: 3rem;
+    border: 0.1rem solid #E1E8ED;
+    width: 40rem;
+    height: 100%;
+}
+.reacciones:hover{
+    color: #1DA1F2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg-green{
+    height: 100vh;
+   flex-basis: 30%;  
+   padding: 1.5rem 6rem 0 3.5rem;
+}
+
+.blue{
+    color: #1DA1F2;
+}
+.whiteSize{
+    color: white;
+}
+.whiteBack{
+    background-color: white;
+}
+
+.fs-17{
+    font-size: 3rem
+}
+
+.mt-1{
+    margin-top: 2rem;
+}
+
+.bg-red{
+    height: 100vh;
+    flex-basis: 25%;
+    justify-content: center;
+}
+
+.enlaces{
+    align-items: flex-start;
+    row-gap: 2rem;
+}
+
+.link{
+    color: black;
+    padding: 0.5rem 0.8rem 0.5rem 0.5rem;
+    column-gap: 1rem;
+    font-size: 2rem;
+}
+
+.link:hover{
+    background: rgb(217, 213, 213);
+    padding: 0.5rem 0.8rem 0.5rem 0.5rem;
+    cursor: pointer;
+    border-radius: 3rem
+}
+
+.textnone:hover{
+    text-decoration: none;
+}
+
+
+.register{
+    width: 100%;    
+    height: auto;
+    border: 0.1rem solid #E1E8ED;
+    border-radius: 2rem;
+    gap: 1rem;
+    padding: 1rem 2.5rem 1.5rem 1.5rem;
+}
+
+.fs-1r{
+    font-size: 2.2rem;
+}
+
+.fs-7{
+    font-size: 1.3rem;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+.btn{
+    border-radius: 10rem;
+    background-color: #F5F8FA;
+    font-size: 1.5rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border: 0.1rem solid #E1E8ED;
+}
+
+.gray{
+    color: gray
+}
+
+.red{
+    color: red
+}
+.pd05{
+ padding-right: 0.5rem;
+}
+.pd-2{
+    padding-right: 2rem;
+}
+.pd{
+    padding: 1.2rem 1.6rem;
+}
+
+.privacylinks{
+    text-decoration: none;
+}
+
+.alineacion{
+    gap: 0rem 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+    padding: 0 1rem 0 1rem;
+}
+
+
+.article{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    width: 100%;
+    height: 7rem;
+    background-color: #1DA1F2;
+}
+.divArc{
+    display: flex;
+    width: 100%;
+    height: 4.5rem;
+}
+.articleBlue{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 45%;
+}
+.titleArc{
+    font-size: 2.3rem;
+}
+.button1{
+    padding: 1rem;
+    background-color: transparent;
+    border-radius: 2rem;
+    border: #F5F8FA solid 0.1rem;
+}
+.button1:hover{
+    background-color: rgb(85, 85, 211);
+}
+.button2{
+    padding: 1rem;
+    border-radius: 2rem;
+    border: #F5F8FA solid 0.1rem;
+    margin-left: 1rem;
+}
+.articleGreen{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
